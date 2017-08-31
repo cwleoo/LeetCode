@@ -1,4 +1,4 @@
-### 4. Tricky tips:
+# 4. Tricky tips:
 
 ## 1) Space use promotion: 
 
@@ -10,6 +10,7 @@ if a routine will be executed many times, and each time they share a common DP a
 
 ## 3) Use binary search in DP: 
 
+use binary search to determine values of specific positions as well as the order of elements in DP arrays. It is useful to help count the elements which is less than certain vale. Normally using DP need O(n^2) time because we need to check each element before current element to decide the count. However, binary search will cut time into O(nlogn). For problems, it would be helpful to solve problem with "how many ..." or "the max number/length" ... (see Q300 longest increasing subsequence)
 	
 ## 4) [Use DP for back tracking:](DP_for_backTracking/README.md)
 
@@ -19,6 +20,7 @@ if we use back tracking only for count of result or whether a certain result can
 
     b. then we will traverse elements in DP arrays backwards and update them based on the conditions.
 
+We can do this because we don't need to get every desired result. See below "back Tracking". (See Q416 partition equal subset sum, Q474 ones and zeroes, Q494 target sum)
 
 ## 5) Use DP for minimax/game tree: 
 
