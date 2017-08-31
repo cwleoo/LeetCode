@@ -23,7 +23,7 @@
 
 import java.util.*;
 
-public class Solution {
+public class Q494TargetSum {
     
     public int findTargetSumWays(int[] nums, int S) {
         if(nums == null || nums.length == 0) {
