@@ -3,7 +3,6 @@
 if we use back tracking only for count of result or whether a certain result can be reached, then DP can help promote both time and (sometimes) space. DP will be used in such way: 
 
     a. for each input, we need to check/update the elements in DP array; 
-
     b. then we will traverse elements in DP arrays backwards and update them based on the conditions.
 
 We can do this because we don't need to get every desired result. See below "back Tracking". 
