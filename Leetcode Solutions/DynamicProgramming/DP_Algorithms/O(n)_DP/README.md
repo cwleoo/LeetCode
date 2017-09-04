@@ -1,0 +1,5 @@
+## 1) Indexed DP (O(n) DP): 
+
+initial an extra array for DP with the same size as input array. Sometimes several such arrays are used but each element are associated to element in input array which has same index. It is the most common case when confronted with a DP problem.
+
+([Q53 maximum subarray](Q53MaximumSubarray.java), Q62/63 unique paths [I](Q62UniquePaths.java)/[II](Q63UniquePathsII.java), [Q64 minimum path sum](Q64MinimumPathSum.java), [Q91 decode ways](Q91DecodeWays.java), [Q95 unique binary search trees](Q95UniqueBinarySearchTreesII.java) (also available in 2D DP), Q120 triangle, Q123 best time to buy and sell stock III, Q139 word break, Q264 ugly number II, Q300 longest increasing subsequence, Q322 coin change, Q338 counting bits, Q368 largest divisible subset, Q377 combination sum IV, Q650 2 keys keyboard)
