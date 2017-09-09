@@ -4,7 +4,7 @@
 
 initial an extra array for DP with the same size as input array. Sometimes several such arrays are used but each element are associated to element in input array which has same index. It is the most common case when confronted with a DP problem.
 
-(Q53 maximum subarray, Q62/63 unique paths I/II, Q64 minimum path sum, Q91 decode ways, Q95 unique binary search trees (also available in 2D DP), Q120 triangle, Q123 best time to buy and sell stock III, Q139 word break, Q264 ugly number II, Q300 longest increasing subsequence, Q322 coin change, Q338 counting bits, Q368 largest divisible subset, Q377 combination sum IV, Q650 2 keys keyboard)
+(Q53 maximum subarray, Q62/63 unique paths I/II, Q64 minimum path sum, Q91 decode ways, Q95 unique binary search trees II (also available in 2D DP), Q120 triangle, Q123 best time to buy and sell stock III, Q139 word break, Q264 ugly number II, Q300 longest increasing subsequence, Q322 coin change, Q338 counting bits, Q368 largest divisible subset, Q377 combination sum IV, Q650 2 keys keyboard)
 
 ## 2) [O(1) space DP:](O(1)_DP/README.md)
 
