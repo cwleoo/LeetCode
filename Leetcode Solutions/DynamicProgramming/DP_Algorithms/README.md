@@ -12,9 +12,9 @@ only use several variables to cache/store previous result of calculation. It is 
 
 (Q70 climbing stairs, Q121 best time to buy and sell stock, Q198/213 house robber I/II, Q357 count numbers with unique digits, Q376 wiggle subsequence, Q413 arithmetic slices, Q646 maximum length of pair chain)
 
-## 3) 2D DP for 1D input:
+## 3) [2D DP for 1D input:](2D_DP_for_1D_input/README.md)
 
-sometimes need 2D array DP to solve problem with 1D input array. These cases can happen if index mapping happened and the mapping is an instance of Cartesian Product (A x A) or simply a triangle relationship (e.g. for each `i<=j`).
+sometimes need 2D array DP to solve problem with 1D input array. These cases can happen if index mapping happened and the mapping is an instance of Cartesian Product (A x A) or simply a triangle relationship (e.g. for each `i <= j`).
 
 (Q10 regular expression matching, Q95 unique binary search trees II (also available in 1D DP), Q140 word break II, Q516 longest palindromic subsequence) 
 
