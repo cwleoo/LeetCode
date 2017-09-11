@@ -18,7 +18,7 @@ sometimes need 2D array DP to solve problem with 1D input array. These cases can
 
 (Q10 regular expression matching, Q95 unique binary search trees II (also available in 1D DP), Q140 word break II, Q516 longest palindromic subsequence) 
 
-## 4) HashMap for DP:
+## 4) [HashMap for DP:](HashMap_for_DP/README.md)
 
 directly cache intermediate result with Hash Map. For O(1) time retrieving. Pay extra attention to the initial condition, and be extremely careful about the differences between escape status and end status.
 
