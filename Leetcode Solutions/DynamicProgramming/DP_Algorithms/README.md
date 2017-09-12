@@ -30,7 +30,7 @@ especially for handling problems that has fix-sized range of elements: like stri
 
 (Q3 longest substring without repeating characters, Q467 unique substrings in wraparound string)
 
-## 6) Multiple DP Arrays:
+## 6) [Multiple DP Arrays:](Multiple_DP_Arrays/README.md)
 
 Particularly, sometimes need multiple DP arrays to handle single problem. In such problem, often multiple states or multiple kinds of elements are needed, and using only one pointer with only one DP array would be hard to solve. 
 
