@@ -24,11 +24,11 @@ directly cache intermediate result with Hash Map. For O(1) time retrieving. Pay 
 
 (Q140 word break II, Q464 can I win, Q523 continuous subarray sum, Q638 shopping offers)
 
-## 5) Fix-sized DP:
+## 5) [Fix-sized DP:](Fix-sized_DP/README.md)
 
 especially for handling problems that has fix-sized range of elements: like string or digits (string with 256 characters and digits with 10 numbers). Fix-sized DP provides a useful classification of elements so that it's easier to handle some problems. 
 
-(Q467 unique substrings in wraparound string)
+(Q3 longest substring without repeating characters, Q467 unique substrings in wraparound string)
 
 ## 6) Multiple DP Arrays:
 
