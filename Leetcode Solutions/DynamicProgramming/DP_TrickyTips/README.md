@@ -19,7 +19,7 @@ if we use back tracking only for count of result or whether a certain result can
     a. for each input, we need to check/update the elements in DP array;
     b. then we will traverse elements in DP arrays backwards and update them based on the conditions.
 
-We can do this because we don't need to get every desired result. See below "back Tracking". (See Q416 partition equal subset sum, Q474 ones and zeroes, Q494 target sum)
+We can do this because we don't need to get every desired result. See below "back Tracking". (See Q368 largest divisible subset,Q416 partition equal subset sum, Q474 ones and zeroes, Q494 target sum)
 
 ## 5) [Use DP for minimax/game tree:](DP_for_minimax/README.md) 
 

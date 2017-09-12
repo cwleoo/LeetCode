@@ -36,7 +36,7 @@ Particularly, sometimes need multiple DP arrays to handle single problem. In suc
 
 (see Q309 best time to buy and sell stock with cooldown)
 
-## 7) Custom type DP:
+## 7) [Custom type DP:](Custom_type_DP/README.md)
 
 to keep track of multiple information in a DP array, sometimes use custom type/class can simplify the problem. 
 
