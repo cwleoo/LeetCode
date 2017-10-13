@@ -16,11 +16,11 @@ the algorithm that can traverse a binary tree without extra space (like O(n) sta
 
 The key point here is: 
 
-> *1*) using two pointers (one is `current` the other is `predecessor`) and try to find the predecessor of the current node (which is a leaf), then
+> **1**) using two pointers (one is `current` the other is `predecessor`) and try to find the **predecessor** of the current node (which is a leaf), then
 
-> *2*) let the right child of the predecessor points to current node. (that why ¡°threading¡± comes) Thus, we build a path that enable us trace back to parents or ancestors. After visiting this leaf, we should
+> **2**) let the **right child** of the predecessor points to current node. (that why ¡°threading¡± comes) Thus, we build a path that enable us trace back to parents or ancestors. After visiting this leaf, we should
 
-> *3*) restore its original structure ¨C set the right child of predecessor to null. so that keeping the tree unchanged.
+> **3**) restore its original structure ¨C set the right child of predecessor to `null` so that keeping the tree unchanged.
 
 The total running time is O(n) with O(1) space. Since each node is visited at most twice, so running time is linear.
 	
