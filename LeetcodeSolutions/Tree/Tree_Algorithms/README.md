@@ -10,7 +10,7 @@ no matter what kind of traversal is needed, Stack<> will be a perfect data struc
 	
    - Post-order: simply use a stack. One thing different with pre-order traversal is that, we push nodes in the order of ¡°left, right¡±. When we finished the output, we need to REVERSE the whole output so that meet the post-order requirement. (Q145 binary tree post order traversal)
 	
-## 2) Morris traversal algorithm (Treading binary tree): 
+## 2) [Morris traversal algorithm (Treading binary tree)](Morris_Traversal/README.md): 
 
 the algorithm that can traverse a binary tree without extra space (like O(n) stack) or extra stacks (in recursion). 
 
