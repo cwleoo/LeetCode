@@ -32,10 +32,10 @@ The total running time is O(n) with O(1) space. Since each node is visited at mo
 	
 ## 3) [DFS & BFS](DFS_BFS/README.md): 
 
-   - DFS in a tree is the same to perform preorder traversal. It is perfect for searching certain nodes or paths. It is implemented by using recursion or Stack. Also, DFS is often seen as the straight-forward approach of using recursion structure.
+   - DFS in a tree is the same to perform preorder traversal. It is perfect for searching certain nodes or paths. It is implemented by using recursion or Stack. Also, DFS is often seen as the straight-forward approach of using **recursion structure**.
 (See Q105 construct binary tree from preorder and inorder traversal, Q106 construct binary tree from inorder and postorder traversal, Q112/113 path sum I/II, Q114 flatten binary tree to linked list, Q116/117 populating next right pointers in each node I/II, Q124 binary tree maximum path sum, Q129 sum root to leaf numbers, Q199 binary tree right side view, Q236 lowest common ancestor of a binary tree, Q449 serialize and deserialize BST, Q513 find bottom left tree value)
 
-   - BFS in a tree is viewed as ¡°level order¡± traversal. It is perfect to handle problems in the field of ¡°level¡± or ¡°height¡± and find the shortest path in a tree. It is implemented by using Queue in an iterative style.
+   - BFS in a tree is viewed as "level order" traversal. It is perfect to handle problems in the field of "level" or "height" and find the shortest path in a tree. It is implemented by using **Queue in an iterative style**.
 (See Q102 binary tree level order traversal, Q103 binary tree zigzag level order traversal, Q199 binary tree right side view, Q297 serialize and deserialize binary tree, Q513 find bottom left tree value, Q515 find largest value in each tree row, Q623 add one row to tree, Q662 maximum width of binary tree)
 	
 ## 4) In-order traversal of BST: 
