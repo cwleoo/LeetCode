@@ -40,7 +40,7 @@ The total running time is O(n) with O(1) space. Since each node is visited at mo
 	
 ## 4) [In-order traversal of BST](Inorder_Traversal_BST/README.md): 
 
-apply in-order traversal on a BST will get an ascending ordered array. One thing need to note is: if we use recursion and we only use O(1) extra space, using global variables would be a good choice. (Q98 validate binary search tree, Q99 recover binary search tree, Q173 binary search tree iterator, Q230 kth smallest element in a BST, Q449 serialize and deserialize BST [preorder], Q653 two sum IV ¨C input is a BST)
+apply in-order traversal on a BST will get an ascending ordered array. One thing need to note is: if we use recursion and we only use O(1) extra space, using global variables would be a good choice. (Q98 validate binary search tree, Q99 recover binary search tree, Q173 binary search tree iterator, Q230 kth smallest element in a BST, Q449 serialize and deserialize BST [preorder], Q653 two sum IV - input is a BST)
 	
 ## 5) DP for Tree: 
 
