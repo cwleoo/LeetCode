@@ -86,6 +86,12 @@ also called Prefix Tree. A trie is a variant of an n-ary tree in which character
    - A boolean flag: a boolean `terminates` within the parent node.
 
 (See Q208 implement trie (prefix tree), Q211 add and search word ¨C data structure design, Q421 maximum XOR of two numbers in an array, Q648 replace words)
+
+### 9) Segment Tree/Indexed Tree: 
+
+both can achieve O(logn) searching time and updating time, and is effective for handling highly mutable data. 
+
+(See Q307 range sum query - mutable)
 	
 ## 4. Tricky tips:
 	
